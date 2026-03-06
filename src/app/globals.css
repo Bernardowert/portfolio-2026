@@ -8,7 +8,21 @@
 
 
 @theme static{
+     --color-grey-1000:#27272A;
     --color-grey-950: #9CA3AF;
     --color-black-900:#0A0A0A;
+    --color-white-900: #F3F4F6;
+    --color-purple-1000: #6366F1;
+
+
+    --breakpoint-desktop:80rem; 
+    --breakpoint-laptop:64rem;
+    --breakpoint-tablet:40rem;
+
 }
 
+
+body{
+   background: #0A0A0A;
+   color: #fff;
+}
